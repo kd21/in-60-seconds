@@ -12,9 +12,13 @@
 ---
 @snap[north-west]
 #### 改良の方法、方向性は自由!!!
+@snapend
+@snap[west span-55]
 @ul[spaced text-white]
-- hoge
-- huga
+- You will be @color[cyan](**amazed**)
+- What you can achieve
+- *With a little imagination...*
+- And **GitPitch Markdown**
 @ulend
 @snapend
 ---
