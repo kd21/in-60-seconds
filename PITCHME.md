@@ -13,8 +13,6 @@
 - word2vecの学習モデルの精度や対応する単語を増やす
 @ulend
 @snapend
-Note:
-次回以降、今まで作ったクラス図や関数をベースにプログラムの拡張を行う
 
 ---?color=#E58537
 @snap[north-west]
