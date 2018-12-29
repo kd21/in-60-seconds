@@ -6,7 +6,7 @@
 
 ![](assets/img/presentation.png)
 
----
+---?color=#E58537
 @snap[north-west]
 #### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
 @snapend
