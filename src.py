@@ -1,5 +1,3 @@
-# meacbを用いた形態素解析
-
 tokenized_text = mecab.parse('ハリーポッターと賢者の石').split('\n')[0:-2]
 surfaces = [t.split('\t')[0] for t in tokenized_text]
 poses = [t.split('\t')[3].split('-')[0] for t in tokenized_text]
