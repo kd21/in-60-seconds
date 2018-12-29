@@ -1,9 +1,7 @@
 # Let's Get Started
 
 ---
-
 ## Add Some Slide Candy
-
 ![](assets/img/presentation.png)
 
 ---?color=#E58537
@@ -17,8 +15,6 @@
 - DBに対応する
 - @color[cyan](***データの取得方法を工夫する（Webスクレイピング）***)
 - Web APIに対応する
-- 形態素解析を用いた自然言語処理***
-- word2vecの学習モデルの精度や対応する単語を増やす
 @ulend
 @snapend
 ---
