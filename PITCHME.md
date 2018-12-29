@@ -6,7 +6,7 @@
 
 ---?color=#E58537
 @snap[north-west]
-#### 拡張の方向性、方法は自由！
+### 拡張の方向性、方法は自由！
 @snapend
 @snap[west span-100]
 @ul[spaced text-white]
