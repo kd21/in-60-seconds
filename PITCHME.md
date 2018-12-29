@@ -25,7 +25,7 @@
 @snapend
 @snap[west span-55]
 @ul[spaced text-white]
-- You will be @amazed[cyan](**color**)
+- You will be @color[cyan](**amazed**)
 - What you can achieve
 - *With a little imagination...*
 - And **GitPitch Markdown**
