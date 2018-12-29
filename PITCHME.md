@@ -20,8 +20,21 @@
 @ulend
 @snapend
 ---
+#### データの収集自動化（静的サイトのWebスクレイピング）
+---
+#### pythonでWebスクレイピング（静的なサイト）
+---
+#### データの収集自動化（動的サイトのWebスクレイピング）
+---
+#### 先程の本のランキングサイトが動的サイトの場合
+---
+##### PythonでWebスクレイピング（動的なサイト）
+---
+##### 形態素解析を用いた自然言語処理（mecab）
+---
 
 @title[Customize Slide Layout]
+
 
 @snap[west span-50]
 ## Customize Slide Content Layout
