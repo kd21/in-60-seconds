@@ -22,6 +22,7 @@
 ---
 @snap[north-west]
 #### データの収集自動化（静的サイトのWebスクレイピング）
+ブラウザでサイトが開かれるまでの簡略図
 @snapend
 ---
 @snap[north-west]
