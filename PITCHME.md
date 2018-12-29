@@ -8,14 +8,17 @@
 
 ---?color=#E58537
 @snap[north-west]
-#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
+#### 拡張の方向性、方法は自由！
 @snapend
 @snap[west span-55]
 @ul[spaced text-white]
-- You will be @color[cyan](**amazed**)
-- What you can achieve
-- *With a little imagination...*
-- And **GitPitch Markdown**
+- 今回紹介したプログラムの機能拡張をする
+- GUIで操作できるようにする
+- DBに対応する
+- @color[cyan](***データの取得方法を工夫する（Webスクレイピング）***)
+- Web APIに対応する
+- @color[cyan](***形態素解析を用いた自然言語処理***)
+- word2vecの学習モデルの精度や対応する単語を増やす
 @ulend
 @snapend
 ---
