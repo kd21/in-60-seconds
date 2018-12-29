@@ -42,11 +42,7 @@
 ---
 @snap[north-west]
 ##### 形態素解析を用いた自然言語処理（mecab）
-```phthon 
-import MeCab
-mecab = MeCab.Tagger(-Ochasen")
-mecab.parse('ハリーポッターと賢者の石').split('\n')
-```
+---?code=src.py
 @snapend
 ---
 
