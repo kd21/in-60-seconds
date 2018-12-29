@@ -44,7 +44,6 @@
 ##### 形態素解析を用いた自然言語処理（mecab）
 @snapend
 ---?code=src.py
----
 
 @title[Customize Slide Layout]
 
