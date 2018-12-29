@@ -20,17 +20,29 @@
 @ulend
 @snapend
 ---
+@snap[north-west]
 #### データの収集自動化（静的サイトのWebスクレイピング）
+@snapend
 ---
+@snap[north-west]
 #### pythonでWebスクレイピング（静的なサイト）
+@snapend
 ---
+@snap[north-west]
 #### データの収集自動化（動的サイトのWebスクレイピング）
+@snapend
 ---
+@snap[north-west]
 #### 先程の本のランキングサイトが動的サイトの場合
+@snapend
 ---
+@snap[north-west]
 ##### PythonでWebスクレイピング（動的なサイト）
+@snapend
 ---
+@snap[north-west]
 ##### 形態素解析を用いた自然言語処理（mecab）
+@snapend
 ---
 
 @title[Customize Slide Layout]
