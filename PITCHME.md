@@ -9,7 +9,7 @@
 #### **拡張の方向性、方法は自由！**
 @snapend
 @snap[west span-100]
-@ul[text-white]
+@ul[text-white](false)
 - 今回紹介したプログラムの機能拡張をする
 - GUIで操作できるようにする
 - DBに対応する
