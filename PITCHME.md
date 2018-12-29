@@ -8,13 +8,15 @@
 @snap[north-west]
 #### 拡張の方向性、方法は自由！
 @snapend
-@snap[west span-90]
+@snap[west span-100]
 @ul[spaced text-white]
 - 今回紹介したプログラムの機能拡張をする
 - GUIで操作できるようにする
 - DBに対応する
 - @color[cyan](***データの取得方法を工夫する（Webスクレイピング）***)
 - Web APIに対応する
+- 形態素解析を用いた自然言語処理***
+- word2vecの学習モデルの精度や対応する単語を増やす
 @ulend
 @snapend
 ---
