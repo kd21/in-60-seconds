@@ -1,12 +1,24 @@
 # Let's Get Started
 
 ---
+### 拡張は自由
+
+---
 
 ## Add Some Slide Candy
 
 ![](assets/img/presentation.png)
 
 ---
+@snap[north-west]
+#### 改良の方法、方向性は自由!!!
+@ul[spaced text-white]
+- hoge
+- huga
+@ulend
+@snapend
+---
+
 @title[Customize Slide Layout]
 
 @snap[west span-50]
