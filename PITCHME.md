@@ -42,8 +42,8 @@
 ---
 @snap[north-west]
 ##### 形態素解析を用いた自然言語処理（mecab）
----?code=src.py
 @snapend
+?code=src.py
 ---
 
 @title[Customize Slide Layout]
