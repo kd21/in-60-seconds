@@ -39,11 +39,11 @@
 @snap[north-west]
 ##### PythonでWebスクレイピング（動的なサイト）
 @snapend
----
+
+---?code=src.py
 @snap[north-west]
 ##### 形態素解析を用いた自然言語処理（mecab）
 @snapend
----?code=src.py
 
 @title[Customize Slide Layout]
 
