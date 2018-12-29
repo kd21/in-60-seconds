@@ -48,3 +48,5 @@ thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
 
 #スライドのページ数表示の設定
 slide-number: true
+
+charts : true
