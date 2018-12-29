@@ -1,9 +1,6 @@
 # Let's Get Started
 
 ---
-### 拡張は自由
-
----
 
 ## Add Some Slide Candy
 
@@ -11,7 +8,7 @@
 
 ---
 @snap[north-west]
-#### 改良の方法、方向性は自由!!!
+#### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
 @snapend
 @snap[west span-55]
 @ul[spaced text-white]
