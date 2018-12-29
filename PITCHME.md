@@ -15,12 +15,14 @@
 @snapend
 Note:
 次回以降、今まで作ったクラス図や関数をベースにプログラムの拡張を行う
----
+
+---?color=#E58537
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
 @snapend
----
+
+---?color=#E58537
 @snap[north-west]
 #### **pythonでWebスクレイピング（静的なサイト）**
 @snapend
@@ -36,15 +38,17 @@ soup = BeautifulSoup(response.text,"html.parser")
 # 本のタイトルを取得
 books = [a.text for a in soup.select("div.rankInner a")]
 ```
----
+---?color=#E58537
 @snap[north-west]
 #### **データの収集自動化（動的サイトのWebスクレイピング）**
 @snapend
----
+
+---?color=#E58537
 @snap[north-west]
 #### **先程の本のランキングサイトが動的サイトの場合**
 @snapend
----
+
+---?color=#E58537
 @snap[north-west]
 ##### **PythonでWebスクレイピング（動的なサイト）**
 @snapend
