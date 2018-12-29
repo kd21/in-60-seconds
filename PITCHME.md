@@ -42,6 +42,11 @@
 ---
 @snap[north-west]
 ##### 形態素解析を用いた自然言語処理（mecab）
+```
+import MeCab
+mecab = MeCab.Tagger(-Ochasen")
+mecab.parse('ハリーポッターと賢者の石').split('\n')
+```
 @snapend
 ---
 
