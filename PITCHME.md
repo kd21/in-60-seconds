@@ -77,6 +77,10 @@
 @snapend
 
 ---?image=assets/img/presenter.jpg
+@[1]
+@[2]
+@[3]
+@[1-3]
 
 @snap[north span-100 headline]
 ## Now It's Your Turn
