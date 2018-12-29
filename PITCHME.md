@@ -29,6 +29,7 @@ Note:
 ---
 @snap[north-west]
 #### **pythonでWebスクレイピング（静的なサイト）**
+@snapend
 ```python
 from bs4 import BeautifulSoup
 import requests
@@ -41,7 +42,6 @@ soup = BeautifulSoup(response.text,"html.parser")
 # 本のタイトルを取得
 books = [a.text for a in soup.select("div.rankInner a")]
 ```
-@snapend
 ---
 @snap[north-west]
 #### **データの収集自動化（動的サイトのWebスクレイピング）**
