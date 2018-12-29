@@ -20,6 +20,7 @@
 ブラウザでサイトが開かれるまでの簡略図
 @snapend
 
+---?color=#E58537
 #### **HTMLの描画例**
 @snap[west span-40]
 @code[html zoom-07](hoge.html)
