@@ -8,7 +8,7 @@
 @snap[north-west]
 #### 拡張の方向性、方法は自由！
 @snapend
-@snap[west span-55]
+@snap[west span-90]
 @ul[spaced text-white]
 - 今回紹介したプログラムの機能拡張をする
 - GUIで操作できるようにする
