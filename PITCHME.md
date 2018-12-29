@@ -23,10 +23,9 @@
 @snap[north-west]
 #### Add a splash of @color[cyan](**color**) and you are ready to start presenting...
 @snapend
-@color[cyan](**color**) @color[cyan](**color**) @color[cyan](**color**) 
 @snap[west span-55]
 @ul[spaced text-white]
-- You will be amazed
+- You will be @amazed[cyan](**color**)
 - What you can achieve
 - *With a little imagination...*
 - And **GitPitch Markdown**
