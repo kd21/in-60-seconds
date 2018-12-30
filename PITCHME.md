@@ -18,6 +18,8 @@
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
+![WEB Flow](assets/img/static_website.flow.png)
+assets/img
 @snapend
 
 ---?color=#E58537
