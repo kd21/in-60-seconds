@@ -90,5 +90,28 @@ for m in morphs:
 # {'surface': 'の', 'pos': '助詞'}
 # {'surface': '石', 'pos': '名詞'}
 ```
----
+---?color=#E58537
+@snam[north-west]
+##### **現状のクラス**
+@snapend
+---?color=#E58537
+@snam[north-west]
+##### **改良1：学生証をチャージ機に入れた時、おみくじ機能をつける**
+@snapend
+**おみくじ機能の発行条件**
+直前にチャージした人の趣味と、チャージした人の趣味が近ければ良い結果のおみくじを、遠ければ悪い結果のおみくじを発行する
 
+---?color=#E58537
+@snam[north-west]
+##### **メソッドの機能**
+**StudentCard**
+get_student_hobboy()
+→学生のhobbyを返す
+**MainShopCharger**
+insert_student_card()
+→StudentCard
+@snapend
+---?color=#E58537
+@snam[north-west]
+##### **現状のクラス**
+@snapend
