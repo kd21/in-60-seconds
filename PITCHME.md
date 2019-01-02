@@ -74,7 +74,7 @@ books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-tr
 
 ---?color=#E58537
 @snap[north-west]
-##### **形態素解析を用いた自然言語処理（mecab）**
+##### **趣味に近い本の算出方法**
 @snapend
 ```python
 tokenized_text = mecab.parse('ハリーポッターと賢者の石').split('\n')[0:-2]
@@ -108,10 +108,34 @@ for m in morphs:
 get_student_hobboy()
 →学生のhobbyを返す
 **MainShopCharger**
-insert_student_card()
-→StudentCard
+pick_fortune()
+→直前にチャージした人と今チャージした人の趣味の類似度を計算し、類似度が高ければおみくじで良い結果を悪ければおみくじの結果を悪くする
 @snapend
 ---?color=#E58537
 @snap[north-west]
-##### **現状のクラス**
+##### **実装（趣味の類似度算出部分）**
+@snapend
+---?color=#E58537
+@snap[north-west]
+##### **実装結果**
+@snapend
+---?color=#E58537
+@snap[north-west]
+##### **改良2：学生におすすめの本を表示する**
+@snapend
+**おすすめの条件**
+学生の趣味と、販売されている全ての本（今回は100冊）のタイトルの類似度を算出し、類似度が一番高いTOP3を表示する
+---?color=#E58537
+@snap[north-west]
+##### **メソッドの機能**
+@snapend
+get_student_hobby()
+→学生のhobbyを返す
+insert_student_card()
+→学生証をShopRegistrに差し込む（MainShopChargerのものと同じ機能）
+recommended()
+→販売されている本の中から学生の趣味に近いものTOP3を抜粋し表示
+---?color=#E58537
+@snap[north-west]
+##### **実装（趣味の類似度算出部分）**
 @snapend
