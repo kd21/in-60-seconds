@@ -138,5 +138,5 @@ recommended()
 ---?color=#E58537
 @snap[north-west]
 ##### **趣味に近い本の算出方法**
-@snapend
 ![Book_Cal_Flow](assets/img/book_cal_flow.svg)
+@snapend
