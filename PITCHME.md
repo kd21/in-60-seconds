@@ -137,5 +137,6 @@ recommended()
 →販売されている本の中から学生の趣味に近いものTOP3を抜粋し表示
 ---?color=#E58537
 @snap[north-west]
-##### **実装（趣味の類似度算出部分）**
+##### **趣味に近い本の算出方法**
 @snapend
+![Book_Choice Flow](assets/img/book_choice_flow.svg)
