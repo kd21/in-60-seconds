@@ -139,4 +139,4 @@ recommended()
 @snap[north-west]
 ##### **趣味に近い本の算出方法**
 @snapend
-![Book_Choice Flow](assets/img/book_choice_flow.svg)
+![Book_Cal_Flow](assets/img/book_cal_flow.svg)
