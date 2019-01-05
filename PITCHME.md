@@ -93,9 +93,9 @@ for m in morphs:
 ---?color=#E58537
 @snap[north-west]
 ##### **現状のクラス**
+![WEB Flow](assets/img/base.png)
 @snapend
 ---?color=#E58537
-![WEB Flow](assets/img/base.png)
 @snap[north-west]
 ##### **改良1：学生証をチャージ機に入れた時、おみくじ機能をつける**
 @snapend
