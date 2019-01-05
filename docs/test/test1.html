@@ -4,7 +4,7 @@
     <script>
       function getCSV() {
         var req = new XMLHttpRequest();
-        req.open('get', 'data/data.csv', true);
+        req.open('get', '/data/data.csv', true);
         req.send(null);
         req.onload = function() {
           setCSV(req.responseText);
