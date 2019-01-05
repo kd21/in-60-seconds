@@ -95,37 +95,43 @@ for m in morphs:
 ##### **現状のクラス**
 ![WEB Flow](assets/img/base.png)
 @snapend
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：学生証をチャージ機に入れた時、おみくじ機能をつける**
-@snapend
 ###### **おみくじ機能の発行条件**
 直前にチャージした人の趣味と、チャージした人の趣味が近ければ良い結果のおみくじを、遠ければ悪い結果のおみくじを発行する
+@snapend
 
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：クラスの構成**
 ![WEB Flow](assets/img/improve1.png)
 @snapend
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：実装（趣味の類似度算出部分）**
 @snapend
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：実装結果**
 @snapend
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良2：学生におすすめの本を表示する**
 @snapend
 **おすすめの条件**
 学生の趣味と、販売されている全ての本（今回は100冊）のタイトルの類似度を算出し、類似度が一番高いTOP3を表示する
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良2：クラスの構成**
 ![WEB Flow](assets/img/improve2.png)
 @snapend
+
 ---?color=#E58537
 @snap[north-west]
 ##### **改良2：趣味に近い本の算出方法**
