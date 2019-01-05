@@ -18,7 +18,7 @@
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
-![WEB Flow](assets/img/static_website_flow.png)
+![Static_WEB Flow](assets/img/static_website_flow.png)
 
 @snapend
 
@@ -93,7 +93,7 @@ for m in morphs:
 ---?color=#E58537
 @snap[north-west]
 ##### **現状のクラス**
-![WEB Flow](assets/img/base.png)
+![Base_Class](assets/img/base.png)
 @snapend
 
 ---?color=#E58537
@@ -110,18 +110,20 @@ for m in morphs:
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：クラスの構成**
-![WEB Flow](assets/img/improve1.png)
+![Improve1_Class](assets/img/improve1.png)
 @snapend
 
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：実装（趣味の類似度算出部分）**
 @snapend
+![Improve1_Method](assets/img/improve1_method.png)
 
 ---?color=#E58537
 @snap[north-west]
 ##### **改良1：実装結果**
 @snapend
+![Improve1_Result](assets/img/improve1_result.png)
 
 ---?color=#E58537
 @snap[north-west]
@@ -135,7 +137,7 @@ for m in morphs:
 @snap[north-west]
 ##### **改良2：クラスの構成**
 新たにShopRegisterというクラスを作成する
-![WEB Flow](assets/img/improve2.png)
+![Improve2_class](assets/img/improve2.png)
 @snapend
 
 ---?color=#E58537
@@ -143,9 +145,10 @@ for m in morphs:
 ##### **改良2：趣味に近い本の算出方法**
 @snapend
 <br>
-![Book_Cal_Flow](assets/img/improve2_flow.png)
+![Improve2_Flow](assets/img/improve2_flow.png)
 
 ---?color=#E58537
 @snap[north-west]
 ##### **改良2：実装結果**
 @snapend
+![Improve2_Result](assets/img/improve2_result.png)
