@@ -23,7 +23,7 @@
 
 ---?color=#E58537
 @snap[north-west]
-#### **HTMLの描画例**
+#### **[HTMLの描画例](https://kd21.github.io/in-60-seconds/)**
 @snapend
 <img src="assets/img/static_web_site_example.png" width="800">
 
