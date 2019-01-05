@@ -123,11 +123,11 @@ for m in morphs:
 学生の趣味と、販売されている全ての本（今回は100冊）のタイトルの類似度を算出し、類似度が一番高いTOP3を表示する
 ---?color=#E58537
 @snap[north-west]
-##### **メソッドの機能**
+##### **改良2：クラスの構成**
 ![WEB Flow](assets/img/improve2.png)
 @snapend
 ---?color=#E58537
 @snap[north-west]
-##### **趣味に近い本の算出方法**
+##### **改良2：趣味に近い本の算出方法**
 ![Book_Cal_Flow](assets/img/book_cal_flow.svg)
 @snapend
