@@ -18,15 +18,12 @@
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
-<img src="assets/img/static_web_site_example.png" width="500">
 
 @snapend
 
 ---?color=#E58537
 #### **HTMLの描画例**
-@snap[west span-40]
-@code[html zoom-07](hoge.html)
-@snapend
+<img src="assets/img/static_web_site_example.png" width="700">
 
 ---?color=#E58537
 @snap[north-west]
