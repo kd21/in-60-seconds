@@ -18,7 +18,7 @@
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
-![Static_WEB Flow](assets/img/improve1_result.png)
+![Static_WEB Flow](assets/img/static_web_site_example.png)
 
 @snapend
 
