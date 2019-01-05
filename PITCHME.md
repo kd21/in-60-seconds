@@ -141,6 +141,7 @@ for m in morphs:
 @snap[north-west]
 ##### **改良2：趣味に近い本の算出方法**
 @snapend
+<br>
 ![Book_Cal_Flow](assets/img/improve2_flow.png)
 
 ---?color=#E58537
