@@ -123,7 +123,7 @@ for m in morphs:
 @snap[north-west]
 ##### **改良1：実装結果**
 @snapend
-<img src="assets/img/improve1_result.png" width="600">
+<img src="assets/img/improve1_result.png" width="500">
 
 ---?color=#E58537
 @snap[north-west]
