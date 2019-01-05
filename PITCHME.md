@@ -134,6 +134,7 @@ for m in morphs:
 ---?color=#E58537
 @snap[north-west]
 ##### **改良2：クラスの構成**
+新たにShopRegisterというクラスを作成する
 ![WEB Flow](assets/img/improve2.png)
 @snapend
 
