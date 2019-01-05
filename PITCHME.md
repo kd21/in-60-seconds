@@ -104,21 +104,16 @@ for m in morphs:
 
 ---?color=#E58537
 @snap[north-west]
-##### **メソッドの機能**
-**StudentCard**
-get_student_hobboy()
-→学生のhobbyを返す
-**MainShopCharger**
-pick_fortune()
-→直前にチャージした人と今チャージした人の趣味の類似度を計算し、類似度が高ければおみくじで良い結果を悪ければおみくじの結果を悪くする
+##### **改良1：クラスの構成**
+![WEB Flow](assets/img/improve1.png)
 @snapend
 ---?color=#E58537
 @snap[north-west]
-##### **実装（趣味の類似度算出部分）**
+##### **改良1：実装（趣味の類似度算出部分）**
 @snapend
 ---?color=#E58537
 @snap[north-west]
-##### **実装結果**
+##### **改良1:実装結果**
 @snapend
 ---?color=#E58537
 @snap[north-west]
@@ -129,13 +124,8 @@ pick_fortune()
 ---?color=#E58537
 @snap[north-west]
 ##### **メソッドの機能**
+![WEB Flow](assets/img/improve2.png)
 @snapend
-get_student_hobby()
-→学生のhobbyを返す
-insert_student_card()
-→学生証をShopRegistrに差し込む（MainShopChargerのものと同じ機能）
-recommended()
-→販売されている本の中から学生の趣味に近いものTOP3を抜粋し表示
 ---?color=#E58537
 @snap[north-west]
 ##### **趣味に近い本の算出方法**
