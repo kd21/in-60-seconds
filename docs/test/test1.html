@@ -42,9 +42,9 @@
             data.push(dataArr.map(x => x.trim()));
           }
         });
-        var t = '<dl>';
+        var t = '<h3>ここからランキング</h3>';
         data.forEach(x => {
-          t += `<dt>${x[0]}</dt><dd>価格は${x[1]}円</dd>`;
+          t += `<div class="book"><div class="bookimg">本の画像</div><span class="title">${x[0]}</span><span class="cost">${x[1]}</span></div>`;
         });
         t += '</dl>';
         r.innerHTML = t;
