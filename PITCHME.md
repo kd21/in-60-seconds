@@ -19,7 +19,7 @@
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
 @snapend
-<br>
+<br><br>
 <img src="assets/img/static_website_flow.png" width="800">
 
 ---?color=#E58537
