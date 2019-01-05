@@ -25,7 +25,7 @@
 @snap[north-west]
 #### **HTMLの描画例**
 @snapend
-<img src="assets/img/static_web_site_example.png" width="1000">
+<img src="assets/img/static_web_site_example.png" width="900">
 
 ---?color=#E58537
 @snap[north-west]
