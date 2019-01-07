@@ -72,7 +72,7 @@ books = [a.text for a in soup.select("div.rankInner a")]
 </tr>
 </table>
 
----?code=assets/src/dynamic_website_scraping.py
+---?code=assets/src/dynamic_website_scraping.py&lang=python
 @snap[north-west]
 ##### **②Pythonで動的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
@@ -82,7 +82,7 @@ books = [a.text for a in soup.select("div.rankInner a")]
 @[7](ブラウザを起動して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
 @[11](divタグ∧a-fixed-left-grid-colというクラスの中の<br>divタグ∧p13n-sc-truncatedのテキストを全て取出しています)
 
----?code=src.py
+---?code=src.py&lang=python
 @snap[north-west]
 ##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
