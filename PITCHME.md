@@ -26,7 +26,7 @@
 #### **[@color[orange](①HTMLの描画例)](https://kd21.github.io/in-60-seconds/)**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
-<img src="assets/img/static_web_site_example.png" width="800" css="border: medium solid #ff00ff;">
+<img src="assets/img/static_web_site_example.png" width="800" css="border: medium double #ff00ff;">
 </a>
 ---
 @snap[north-west]
