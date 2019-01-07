@@ -70,7 +70,7 @@
 @[7](ブラウザを起動して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
 @[11](divタグ∧a-fixed-left-grid-colというクラスの中の<br>divタグ∧p13n-sc-truncatedのテキストを全て取出しています)
 
----?code=src.py&lang=python
+---?code=assets/src/mecab_example.py&lang=python
 @snap[north-west]
 ##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
