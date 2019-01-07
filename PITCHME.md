@@ -30,7 +30,7 @@
 </a>
 ---
 @snap[north-west]
-#### **①pythonで静的なサイトのWebスクレイピング[@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+#### **①pythonで静的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
 ```python
 from bs4 import BeautifulSoup
@@ -97,7 +97,7 @@ books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-tr
 
 ---
 @snap[north-west]
-##### **③形態素解析 [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
 ```python
 tokenized_text = mecab.parse('ハリーポッターと賢者の石').split('\n')[0:-2]
@@ -186,7 +186,7 @@ for m in morphs:
 - 動的Webサイトの例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 - 静的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 - 動的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
-- 形態素解析により、形態素に切り分け、品詞を特定するプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
+- 形態素解析により、形態素に切り分け、品詞を特定するプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 - 改良1のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 - 改良2のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 @ulend
