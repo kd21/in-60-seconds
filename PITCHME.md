@@ -28,22 +28,10 @@
 <a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="800" css="border: medium double #ff00ff;">
 </a>
----
+---?code=assets/src/static_website_scraping.py&lang=python
 @snap[north-west]
 #### **①pythonで静的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
-```python
-from bs4 import BeautifulSoup
-import requests
-
-url = "https://www.e-hon.ne.jp/bec/SE/Genre?ccode=99&dcode=06"
-response = requests.get(url)
-response.encoding = response.apparent_encoding
-soup = BeautifulSoup(response.text,"html.parser")
-
-# 本のタイトルを取得
-books = [a.text for a in soup.select("div.rankInner a")]
-```
 @[1-2](requestsとBeautifulSoupというライブラリを使います)
 @[4](ここでスクレイピングしたいサイトのURLを書き込みます)
 @[5-7](ここは特に書き換えなくても大丈夫です)
