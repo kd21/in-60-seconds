@@ -89,6 +89,11 @@ html_source = browser.page_source
 bs_obj = BeautifulSoup(html_source)
 books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-truncated")]
 ```
+@[1-3](BeautifulSoupとseleniumというライブラリを使います)
+@[5](ここでスクレイピングしたいサイトのURLを書き込みます)
+@[6](webdriver（今回はPhantomJSを使用）を起動しています)
+@[7](ブラウザを起動して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
+@[11](divタグ∧a-fixed-left-grid-colというクラスの中の<br>divタグ∧p13n-sc-truncatedのテキストを全て取出しています)
 
 ---
 @snap[north-west]
