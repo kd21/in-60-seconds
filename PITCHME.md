@@ -2,7 +2,7 @@
 #### **拡張の方向性、方法は自由！**
 @snapend
 @snap[west span-100]
-@ul
+@ul[squares]
 - 今回紹介したプログラムの機能拡張をする
 - GUIで操作できるようにする
 - DBに対応する
@@ -18,7 +18,7 @@
 #### **付録一覧**
 @snapend
 @snap[west span-100]
-@ul
+@ul[squares]
 - 静的Webサイトの例
 - 動的Webサイトの例
 - 静的サイトのスクレイピングプログラム
