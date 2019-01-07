@@ -74,7 +74,7 @@ books = [a.text for a in soup.select("div.rankInner a")]
 
 ---
 @snap[north-west]
-##### **②Pythonで動的なサイトのWebスクレイピング [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+##### **②Pythonで動的なサイトのWebスクレイピング [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
 ```python
 from bs4 import BeautifulSoup
@@ -115,13 +115,13 @@ for m in morphs:
 ```
 ---
 @snap[north-west]
-##### **現状のクラス [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+##### **現状のクラス [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 ![Base_Class](assets/img/base.png)
 @snapend
 
 ---
 @snap[north-west]
-##### **改良1：チャージ機におみくじ機能をつける [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+##### **改良1：チャージ機におみくじ機能をつける [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 <br>
 ###### おみくじ機能の発行条件
 @ul[](false)
@@ -150,7 +150,7 @@ for m in morphs:
 
 ---
 @snap[north-west]
-##### **改良2：学生におすすめの本を表示する [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) **
+##### **改良2：学生におすすめの本を表示する [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 <br>
 ##### おすすめの条件
 学生の趣味と、販売されている本（100冊）のタイトルの全類似度を算出し、類似度TOP3を表示
@@ -182,11 +182,11 @@ for m in morphs:
 @snapend
 @snap[west span-100]
 @ul[](false)
-- 静的Webサイトの例 [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
-- 動的Webサイトの例 [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
-- 静的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
-- 動的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
+- 静的Webサイトの例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
+- 動的Webサイトの例 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
+- 静的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
+- 動的サイトのスクレイピングプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 - 形態素解析により、形態素に切り分け、品詞を特定するプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
-- 改良1のプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
-- 改良2のプログラム [@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) 
+- 改良1のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
+- 改良2のプログラム [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) 
 @ulend
