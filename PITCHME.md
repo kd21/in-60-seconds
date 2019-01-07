@@ -48,6 +48,14 @@ books = [a.text for a in soup.select("div.rankInner a")]
 ---?color=#E58537
 @snap[north-west]
 #### **データの収集自動化（動的サイトのWebスクレイピング）**
+ブラウザでサイトが開かれるまでの簡略図
+@snapend
+<br><br>
+<img src="assets/img/dynamic_website_flow.png" width="800">
+
+---?color=#E58537
+@snap[north-west]
+#### **データの収集自動化（動的サイトのWebスクレイピング）**
 @snapend
 
 ---?color=#E58537
