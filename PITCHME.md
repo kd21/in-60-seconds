@@ -1,9 +1,9 @@
----?color=#E58537
+---
 @snap[north-west]
 #### **拡張の方向性、方法は自由！**
 @snapend
 @snap[west span-100]
-@ul[text-white](false)
+@ul(false)
 - 今回紹介したプログラムの機能拡張をする
 - GUIで操作できるようにする
 - DBに対応する
@@ -14,7 +14,7 @@
 @ulend
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 #### **データの収集自動化（静的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
@@ -22,14 +22,14 @@
 <br><br>
 <img src="assets/img/static_website_flow.png" width="800">
 
----?color=#E58537
+---
 @snap[north-west]
 #### **[HTMLの描画例](https://kd21.github.io/in-60-seconds/)**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="800">
 </a>
----?color=#E58537
+---
 @snap[north-west]
 #### **pythonでWebスクレイピング（静的なサイト）**
 @snapend
@@ -45,7 +45,7 @@ soup = BeautifulSoup(response.text,"html.parser")
 # 本のタイトルを取得
 books = [a.text for a in soup.select("div.rankInner a")]
 ```
----?color=#E58537
+---
 @snap[north-west]
 #### **データの収集自動化（動的サイトのWebスクレイピング）**
 ブラウザでサイトが開かれるまでの簡略図
@@ -53,17 +53,17 @@ books = [a.text for a in soup.select("div.rankInner a")]
 <br><br>
 <img src="assets/img/dynamic_website_flow.png" width="800">
 
----?color=#E58537
+---
 @snap[north-west]
 #### **データの収集自動化（動的サイトのWebスクレイピング）**
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 #### **先程の本のランキングサイトが動的サイトの場合**
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **PythonでWebスクレイピング（動的なサイト）**
 @snapend
@@ -81,7 +81,7 @@ bs_obj = BeautifulSoup(html_source)
 books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-truncated")]
 ```
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **趣味に近い本の算出方法**
 @snapend
@@ -99,13 +99,13 @@ for m in morphs:
 # {'surface': 'の', 'pos': '助詞'}
 # {'surface': '石', 'pos': '名詞'}
 ```
----?color=#E58537
+---
 @snap[north-west]
 ##### **現状のクラス**
 ![Base_Class](assets/img/base.png)
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良1：チャージ機におみくじ機能をつける**
 <br>
@@ -116,25 +116,25 @@ for m in morphs:
 @ulend
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良1：クラスの構成**
 ![Improve1_Class](assets/img/improve1.png)
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良1：実装（趣味の類似度算出部分）**
 @snapend
 ![Improve1_Method](assets/img/improve1_method.png)
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良1：実装結果**
 @snapend
 <img src="assets/img/improve1_result.png" width="500">
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良2：学生におすすめの本を表示する**
 <br>
@@ -142,21 +142,21 @@ for m in morphs:
 学生の趣味と、販売されている本（100冊）のタイトルの全類似度を算出し、類似度TOP3を表示
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良2：クラスの構成**
 新たにShopRegisterというクラスを作成する
 ![Improve2_class](assets/img/improve2.png)
 @snapend
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良2：趣味に近い本の算出方法**
 @snapend
 <br>
 ![Improve2_Flow](assets/img/improve2_flow.png)
 
----?color=#E58537
+---
 @snap[north-west]
 ##### **改良2：実装結果**
 @snapend
