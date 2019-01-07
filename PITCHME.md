@@ -54,7 +54,7 @@ books = [a.text for a in soup.select("div.rankInner a")]
 
 ---
 @snap[north-west]
-#### **②先程の本のランキングサイトが動的サイトの場合**
+#### **②例のサイトが動的サイトの場合　[@color[orange](@fa[desktop])](https://kd21.github.io/in-60-seconds/) [@color[orange](@fa[file-code-o])](https://github.com/kd21/in-60-seconds/tree/master/docs)**
 @snapend
 <table border="0">
 <tr>
