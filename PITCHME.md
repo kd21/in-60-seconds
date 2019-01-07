@@ -23,7 +23,7 @@
 
 ---
 @snap[north-west]
-#### **[①HTMLの描画例](https://kd21.github.io/in-60-seconds/)**
+#### **[①HTMLの描画例](https://kd21.github.io/in-60-seconds/)[black-text]**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="800">
