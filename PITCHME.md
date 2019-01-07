@@ -74,6 +74,11 @@
 @snap[north-west]
 ##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
+@[1-2](Mecabというライブラリを使います)
+@[4](tokenized_textに"テキストをトークン化した結果が文字列で保存されます（どのような文字列で保存されるか気になる人はtokenized_textをprintしてみてください）")
+@[5](トークン化した文字列をsurfacesリストに追加します)
+@[6]（それぞれのトークンの品詞をpostsリストに追加します）
+@[7-15](morphsリストにトークン化した文字列とその品詞を保存します)
 
 ---
 @snap[north-west]
