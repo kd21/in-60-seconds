@@ -59,6 +59,8 @@ soup = BeautifulSoup(response.text,"html.parser")
 # 本のタイトルを取得
 books = [a.text for a in soup.select("div.rankInner a")]
 ```
+@[1-2](requestsとBeautifulSoupというライブラリを使います)
+@[4](ここでスクレイピングしたいサイトのURLを書き込みます)
 ---
 @snap[north-west]
 #### **②動的サイトのWebスクレイピング**
