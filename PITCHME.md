@@ -56,12 +56,17 @@ books = [a.text for a in soup.select("div.rankInner a")]
 @snap[north-west]
 #### **②先程の本のランキングサイトが動的サイトの場合**
 @snapend
-<a href="https://kd21.github.io/in-60-seconds/">
+<table border="0">
+<tr>
+<td><a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="600" css="border: medium double #ff00ff;">
-</a>
-<a href="https://kd21.github.io/in-60-seconds/">
+</a></td>
+<td>→</td>
+<td><a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/dynamic_website_source.png" width="200" css="border: medium double #ff00ff;">
-</a>
+</a></td>
+</tr>
+</table>
 
 ---
 @snap[north-west]
