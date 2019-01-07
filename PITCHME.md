@@ -67,7 +67,8 @@
 @[1-3](BeautifulSoupとseleniumというライブラリを使います)
 @[5](ここでスクレイピングしたいサイトのURLを書き込みます)
 @[6](webdriver（今回はPhantomJSを使用）を起動しています)
-@[7](ブラウザを起動して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
+@[7-8](URLを指定して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
+@[9](JavaScriptが実行し終わり、書き終えたHTMLを取得します)
 @[11](divタグ∧a-fixed-left-grid-colというクラスの中の<br>divタグ∧p13n-sc-truncatedのテキストを全て取出しています)
 
 ---?code=assets/src/mecab_example.py&lang=python
