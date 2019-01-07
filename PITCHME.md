@@ -57,10 +57,10 @@ books = [a.text for a in soup.select("div.rankInner a")]
 #### **②先程の本のランキングサイトが動的サイトの場合**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
-<img src="assets/img/static_web_site_example.png" width="400" css="border: medium double #ff00ff;">
+<img src="assets/img/static_web_site_example.png" width="600" css="border: medium double #ff00ff;">
 </a>
 <a href="https://kd21.github.io/in-60-seconds/">
-<img src="assets/img/dynamic_website_source.png" width="400" css="border: medium double #ff00ff;">
+<img src="assets/img/dynamic_website_source.png" width="200" css="border: medium double #ff00ff;">
 </a>
 
 ---
