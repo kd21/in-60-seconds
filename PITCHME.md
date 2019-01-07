@@ -61,6 +61,8 @@ books = [a.text for a in soup.select("div.rankInner a")]
 ```
 @[1-2](requestsとBeautifulSoupというライブラリを使います)
 @[4](ここでスクレイピングしたいサイトのURLを書き込みます)
+@[5-7](ここは特に書き換えなくても大丈夫です)
+@[10](ここで、divタグ∧class名がrankInnerの中の、aタグのtextを取出しています)
 ---
 @snap[north-west]
 #### **②動的サイトのWebスクレイピング**
