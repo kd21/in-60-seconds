@@ -95,24 +95,11 @@ books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-tr
 @[7](ブラウザを起動して、3秒待っています（JavaScriptが実行され、HTMLが書き終えるのを待っています）)
 @[11](divタグ∧a-fixed-left-grid-colというクラスの中の<br>divタグ∧p13n-sc-truncatedのテキストを全て取出しています)
 
----
+---?code=src.py
 @snap[north-west]
 ##### **③形態素解析 [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
 @snapend
-```python
-tokenized_text = mecab.parse('ハリーポッターと賢者の石').split('\n')[0:-2]
-surfaces = [t.split('\t')[0] for t in tokenized_text]
-poses = [t.split('\t')[3].split('-')[0] for t in tokenized_text]
-morphs = [{"surface":s, "pos":p} for (s,p) in zip(surfaces,poses)]
-for m in morphs:
-  print(m)
 
-# {'surface': 'ハリーポッター', 'pos': '名詞'}
-# {'surface': 'と', 'pos': '助詞'}
-# {'surface': '賢者', 'pos': '名詞'}
-# {'surface': 'の', 'pos': '助詞'}
-# {'surface': '石', 'pos': '名詞'}
-```
 ---
 @snap[north-west]
 ##### **現状のクラス [@color[orange](@fa[file-code-o])](https://kd21.github.io/in-60-seconds/) **
