@@ -1,4 +1,3 @@
----
 @snap[north-west]
 #### **拡張の方向性、方法は自由！**
 @snapend
@@ -16,7 +15,7 @@
 
 ---
 @snap[north-west]
-#### **データの収集自動化（静的サイトのWebスクレイピング）**
+#### **①静的サイトのWebスクレイピング**
 ブラウザでサイトが開かれるまでの簡略図
 @snapend
 <br><br>
@@ -24,14 +23,14 @@
 
 ---
 @snap[north-west]
-#### **[HTMLの描画例](https://kd21.github.io/in-60-seconds/)**
+#### **①[HTMLの描画例](https://kd21.github.io/in-60-seconds/)**
 @snapend
 <a href="https://kd21.github.io/in-60-seconds/">
 <img src="assets/img/static_web_site_example.png" width="800">
 </a>
 ---
 @snap[north-west]
-#### **pythonでWebスクレイピング（静的なサイト）**
+#### **①pythonで静的なサイトのWebスクレイピング**
 @snapend
 ```python
 from bs4 import BeautifulSoup
@@ -47,7 +46,7 @@ books = [a.text for a in soup.select("div.rankInner a")]
 ```
 ---
 @snap[north-west]
-#### **データの収集自動化（動的サイトのWebスクレイピング）**
+#### **②動的サイトのWebスクレイピング**
 ブラウザでサイトが開かれるまでの簡略図
 @snapend
 <br><br>
@@ -55,17 +54,12 @@ books = [a.text for a in soup.select("div.rankInner a")]
 
 ---
 @snap[north-west]
-#### **データの収集自動化（動的サイトのWebスクレイピング）**
+#### **②先程の本のランキングサイトが動的サイトの場合**
 @snapend
 
 ---
 @snap[north-west]
-#### **先程の本のランキングサイトが動的サイトの場合**
-@snapend
-
----
-@snap[north-west]
-##### **PythonでWebスクレイピング（動的なサイト）**
+##### **②Pythonで動的なサイトのWebスクレイピング**
 @snapend
 ```python
 from bs4 import BeautifulSoup
@@ -83,7 +77,7 @@ books = [a.text for a in bs_obj.select("div.a-fixed-left-grid-col div.p13n-sc-tr
 
 ---
 @snap[north-west]
-##### **趣味に近い本の算出方法**
+##### **③形態素解析**
 @snapend
 ```python
 tokenized_text = mecab.parse('ハリーポッターと賢者の石').split('\n')[0:-2]
